@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1669745508240267477
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -4748361991329772099, guid: 2ff4cd1c7bc77a7418ec71a958da515a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4748361991329772099, guid: 2ff4cd1c7bc77a7418ec71a958da515a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 617490827c98ef142861b428a96e743e, type: 2}
+    - target: {fileID: -3910990755373119420, guid: 2ff4cd1c7bc77a7418ec71a958da515a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.88
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 2ff4cd1c7bc77a7418ec71a958da515a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 2ff4cd1c7bc77a7418ec71a958da515a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.0692
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 2ff4cd1c7bc77a7418ec71a958da515a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 2ff4cd1c7bc77a7418ec71a958da515a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 2ff4cd1c7bc77a7418ec71a958da515a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 2ff4cd1c7bc77a7418ec71a958da515a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 2ff4cd1c7bc77a7418ec71a958da515a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 2ff4cd1c7bc77a7418ec71a958da515a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 2ff4cd1c7bc77a7418ec71a958da515a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771091787928289351, guid: 2ff4cd1c7bc77a7418ec71a958da515a, type: 3}
+      propertyPath: m_Name
+      value: Demon
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771091787928289351, guid: 2ff4cd1c7bc77a7418ec71a958da515a, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8771091787928289351, guid: 2ff4cd1c7bc77a7418ec71a958da515a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4943298483410277723}
+    - targetCorrespondingSourceObject: {fileID: 8771091787928289351, guid: 2ff4cd1c7bc77a7418ec71a958da515a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -7165407332708441077}
+  m_SourcePrefab: {fileID: -4161369568681901532, guid: 2ff4cd1c7bc77a7418ec71a958da515a, type: 3}
+--- !u!1 &7968289632359602322 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8771091787928289351, guid: 2ff4cd1c7bc77a7418ec71a958da515a, type: 3}
+  m_PrefabInstance: {fileID: 1669745508240267477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-4943298483410277723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7968289632359602322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 625c23d32b71ef442b60088a9fde7f50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyFaceCamera
+  rotationOffset: {x: 0, y: 0, z: 0}
+--- !u!136 &-7165407332708441077
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7968289632359602322}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.6036716
+  m_Height: 1.341392
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.72716, z: 0.004601955}
