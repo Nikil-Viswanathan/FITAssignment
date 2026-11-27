@@ -74,6 +74,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8771091787928289351, guid: d5911fa9987a7b944b611142fc309758, type: 3}
       insertIndex: -1
       addedObject: {fileID: -6871917975990794093}
+    - targetCorrespondingSourceObject: {fileID: 8771091787928289351, guid: d5911fa9987a7b944b611142fc309758, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5551050729080469254}
   m_SourcePrefab: {fileID: -4161369568681901532, guid: d5911fa9987a7b944b611142fc309758, type: 3}
 --- !u!1 &6009357652254672575 stripped
 GameObject:
@@ -116,3 +119,16 @@ CapsuleCollider:
   m_Height: 1.9117615
   m_Direction: 1
   m_Center: {x: 0.027351141, y: 1.7866572, z: -0.15512419}
+--- !u!114 &5551050729080469254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6009357652254672575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b19fe379ce219a459fb5a48dbeb53be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AlienHealth
+  health: 1
